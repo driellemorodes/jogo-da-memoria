@@ -11,6 +11,17 @@ ordem_das_cartas = [
   "url('imagens/1.png')",
 ];
 
+function embaralhar() {
+  quantidade = ordem_das_cartas.length;
+  for (indice = 0; indice < quantidade; indice = indice + 1) {
+    aleatorio = Math.floor(Math.random()*quantidade)
+    original = ordem_das_cartas[indice]
+    ordem_das_cartas[indice] = ordem_das_cartas[aleatorio]
+    ordem_das_cartas[aleatorio] = original
+  }
+}
+embaralhar()
+
 indice_da_primeira_carta_revelada = null;
 imagem_da_primeira_carta_revelada = null;
 pendente = false;
@@ -18,7 +29,7 @@ pendente = false;
 function revelar_carta(indice) {
   if (pendente === true) {
     alert("Aguarde");
-    return
+    return;
   }
   url_da_imagem = ordem_das_cartas[indice];
   carta = document.getElementById(indice);
