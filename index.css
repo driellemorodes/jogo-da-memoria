@@ -1,0 +1,17 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cartas{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+.carta{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: #C4E1F2;
+    border-color: #C4E1F2;
+    background-size: cover;
+}
