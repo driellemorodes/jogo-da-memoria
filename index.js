@@ -65,3 +65,7 @@ function revelar_carta(indice) {
     }
   }
 }
+
+function resetar() {
+    document.location.reload()
+}
