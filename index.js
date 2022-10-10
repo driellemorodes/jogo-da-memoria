@@ -32,7 +32,10 @@ function revelar_carta(indice) {
     return;
   }
   url_da_imagem = ordem_das_cartas[indice];
-  carta = document.getElementById(indice);
+    carta = document.getElementById(indice);
+  if (carta.style.backgroundImage) {
+    return
+  }
   carta.style.backgroundImage = url_da_imagem;
   if (indice_da_primeira_carta_revelada === null) {
     indice_da_primeira_carta_revelada = indice;
