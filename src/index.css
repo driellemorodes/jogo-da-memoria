@@ -59,10 +59,11 @@ body {
 #cartas {
   display: flex;
   flex-wrap: wrap;
-  max-width: 800px;
+  width: 800px;
   justify-content: center;
   background-color: #7ea5d9;
   border-radius: 8px;
+  padding: 5px;
 }
 .carta {
   width: 150px;
@@ -83,3 +84,12 @@ body {
   border: none;
   font-size: 18px;
 }
+
+@media (max-width: 810px)
+{
+  #cartas
+   {
+    width: 320px;
+   }
+}
+
