@@ -1,14 +1,14 @@
 ordem_das_cartas = [
-  "url('imagens/1.png')",
-  "url('imagens/2.png')",
-  "url('imagens/3.png')",
-  "url('imagens/4.png')",
-  "url('imagens/5.png')",
-  "url('imagens/5.png')",
-  "url('imagens/4.png')",
-  "url('imagens/3.png')",
-  "url('imagens/2.png')",
-  "url('imagens/1.png')",
+  "url('images/1.png')",
+  "url('images/2.png')",
+  "url('images/3.png')",
+  "url('images/4.png')",
+  "url('images/5.png')",
+  "url('images/5.png')",
+  "url('images/4.png')",
+  "url('images/3.png')",
+  "url('images/2.png')",
+  "url('images/1.png')",
 ];
 
 function embaralhar() {
